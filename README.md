@@ -1,24 +1,82 @@
 # Zoom Launcher – An [Alfred](https://www.alfredapp.com/) Workflow
-### v1.2.1
+### v1.0.0
 
-[![License: MIT](https://img.shields.io/github/license/aurooba/alfred-workflow-zoom-meetings)](https://opensource.org/licenses/MIT)
+<!-- ABOUT THE PROJECT -->
+## About
 
-### Created by [Aurooba Ahmed](https://aurooba.com)
+An Alfred workflow to easily launch Zoom meetings without launching the browser. 
 
-**Download the latest version from the [releases](https://github.com/aurooba/alfred-workflow-zoom-meetings/releases) page.**
+### Features:
+* Launch from Meeting ID, URL, or bookmarked meeting
+* Add/remove meeting bookmarks
+* Start meetings with Personal Meeting ID
 
-This workflow allows you to do 3 things:
+<!-- GETTING STARTED -->
+## Getting Started
 
-1. Highlight a Zoom link and hold down `Ctrl+Cmd+Z` to launch it without a new browser tab opening. (This is a suggested hotkey. Add this or another by going to Alfred Preferences, navigating to Workflows, and editing the 'Hotkey' in `Join Zoom Meeting`.) – works with password-protected meetings as well.
-2. Type in `zm` in Alfred to launch your personal zoom meeting and copy the link to clipboard to share – works with password-protected meetings as well.
-3. Type in `zm YOUR-ZOOM-LINK` to open any Zoom link from Alfred.
+### Download
 
-## Saving your Personal Zoom Meeting URL
+**Download the latest version from the [releases](https://github.com/ArianOmidi/alfred-zoom-launcher/releases) page.**
 
-To add your Personal Zoom Meeting URL, open Alfred Preferences, navigate to Workflows, open the `Join Zoom Meeting` workflow, click on the `[x]` in the top right corner and add your URL as the value for the variable `personal`.
+### Enviroment Variables
 
-## Got an idea for an enhancement or a feature request?
-Create [an issue](https://github.com/aurooba/alfred-workflow-zoom-meetings/issues/new?assignees=&labels=&template=feature_request.md&title=%5BFeature+Request%5D)! I welcome all ideas, and am excited about further developing this workflow into something super useful. :)
+Set the enviroment variables for full functionality.
 
-## Enjoy the workflow? Buy me a coffee!
-Coffee fuels my creations. If you enjoyed this workflow, consider [sponsoring a coffee or two](https://www.buymeacoffee.com/aurooba)!
+```sh
+personalId : "PERSONAL_MEETING_ID"
+invite : "Personal Link"
+```
+
+
+<!-- USAGE EXAMPLES -->
+## Usage
+
+### Convert an image to ASCII image
+```sh
+  python ascii.py /path/to/image
+```
+  
+### Convert an image to animated ASCII image
+```sh
+  python ascii_animation.py /path/to/image
+```
+
+### Convert an image to ASCII video
+```sh
+  python ascii_video.py /path/to/video
+```
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+
+<!-- CONTACT -->
+## Contact
+
+Arian Omidi - arian.omidi@icloud.com
+
+Project Link: [https://github.com/ArianOmidi/alfred-zoom-launcher](https://github.com/ArianOmidi/alfred-zoom-launcher)
+
+
+<!-- ACKNOWLEDGEMENTS -->
+## Acknowledgements
+* [Aurooba Ahmed's Zoom Workflow](https://github.com/aurooba/alfred-workflow-zoom-meetings)
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
+[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
+[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
+[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
+[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
+[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
+[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
+[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
+[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/othneildrew
+[product-screenshot]: resources/images/zebra_converted.png
