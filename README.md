@@ -17,7 +17,7 @@ An [Alfred](https://www.alfredapp.com/) workflow to easily launch Zoom meetings 
 
 ### Enviroment Variables
 
-Set the enviroment variables for full functionality.
+Set the following enviroment variables for full functionality.
 
 ```sh
 personalId : PERSONAL_MEETING_ID
