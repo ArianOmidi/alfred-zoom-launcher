@@ -1,10 +1,9 @@
-# Zoom Launcher – An [Alfred](https://www.alfredapp.com/) Workflow
-### v1.0.0
+# Zoom Launcher Workflow
 
 <!-- ABOUT THE PROJECT -->
 ## About
 
-An Alfred workflow to easily launch Zoom meetings without launching the browser. 
+An [Alfred](https://www.alfredapp.com/) workflow to easily launch Zoom meetings without launching the browser. 
 
 ### Features:
 * Launch from Meeting ID, URL, or bookmarked meeting
@@ -14,43 +13,33 @@ An Alfred workflow to easily launch Zoom meetings without launching the browser.
 <!-- GETTING STARTED -->
 ## Getting Started
 
-### Download
-
-**Download the latest version from the [releases](https://github.com/ArianOmidi/alfred-zoom-launcher/releases) page.**
+### Download the latest version from the [releases](https://github.com/ArianOmidi/alfred-zoom-launcher/releases) page.
 
 ### Enviroment Variables
 
 Set the enviroment variables for full functionality.
 
 ```sh
-personalId : "PERSONAL_MEETING_ID"
-invite : "Personal Link"
+personalId : PERSONAL_MEETING_ID
+invite : PERSONAL_LINK
 ```
-
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-### Convert an image to ASCII image
-```sh
-  python ascii.py /path/to/image
-```
+### `zma`
+Add a meeting bookmark by entering the bookmark name with `zma <name>` and then enter the meeting id or url `<id|url>`.
   
-### Convert an image to animated ASCII image
-```sh
-  python ascii_animation.py /path/to/image
-```
+### `zmd`
+Delete a meeting bookmark by entering `zmd` and select the bookmark from the dropdown.
 
-### Convert an image to ASCII video
-```sh
-  python ascii_video.py /path/to/video
-```
+### `zm`
+Launch a meeting with `zm` and select option from dropdown menu or enter the meeting id or url `<id|url>`.
 
 <!-- LICENSE -->
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
-
 
 <!-- CONTACT -->
 ## Contact
